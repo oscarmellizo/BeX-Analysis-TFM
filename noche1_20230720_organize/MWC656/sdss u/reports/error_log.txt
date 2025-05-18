@@ -1,0 +1,13 @@
+ERROR en Target=MWC656  Filter=sdss u
+Traceback (most recent call last):
+  File "c:\Users\Oscar Mellizo\Documents\Mestria Astronomia\TFM\SPA\BeX-Analysis-TFM\run_complete_night.py", line 28, in <module>
+    image_paths, polar, wcs, enriched = run_complete_polarimetric_pipeline(
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Oscar Mellizo\AppData\Local\Programs\Python\Python311\Lib\site-packages\StellarPolAnalyzer\pipeline.py", line 296, in run_complete_polarimetric_pipeline
+    plot_polarization_map(
+  File "C:\Users\Oscar Mellizo\AppData\Local\Programs\Python\Python311\Lib\site-packages\StellarPolAnalyzer\visualization.py", line 334, in plot_polarization_map
+    sky = SkyCoord(ras * u.deg, decs * u.deg, frame='icrs')
+                   ~~~~^~~~~~~
+TypeError: unsupported operand type(s) for *: 'numpy.ndarray' and 'Unit'
+
+--------------------------------------------------------------------------------
