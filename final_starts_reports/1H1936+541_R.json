@@ -6,5 +6,11 @@
   "theta_deg": 89.7,
   "err_theta_deg": 0.01,
   "ra_deg": 294.446381,
-  "dec_deg": 54.233986
+  "dec_deg": 54.233986,
+  "Q_ISM": -0.114,
+  "err_Q_ISM": 0.103,
+  "ISM_dom_q": 1,
+  "U_ISM": -0.075,
+  "err_U_ISM": 0.365,
+  "ISM_dom_u": 1
 }

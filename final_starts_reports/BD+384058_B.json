@@ -5,6 +5,12 @@
   "err_pct": 0.0,
   "theta_deg": -27.47,
   "err_theta_deg": 0.0,
-  "ra_deg": 305.868629,
-  "dec_deg": 39.349541
+  "ra_deg": 305.86863,
+  "dec_deg": 39.349545,
+  "Q_ISM": 2.845,
+  "err_Q_ISM": 0.915,
+  "ISM_dom_q": 1,
+  "U_ISM": -0.818,
+  "err_U_ISM": 0.851,
+  "ISM_dom_u": 0
 }
